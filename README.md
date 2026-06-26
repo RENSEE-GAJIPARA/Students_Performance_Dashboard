@@ -173,6 +173,8 @@ Power BI/Exam/
 │   ├── Drill-Through Effect.png
 │   └── Model View.png
 │
+├── Insight.txt
+│
 ├── README.md
 │
 ├── Student_Performance_Dashboard.pbix
