@@ -1,12 +1,13 @@
 <div align="center">
-
+ 
 # 📊 Student Performance Dashboard
 
 ### Academic Performance & Attendance Analysis — Power BI
 
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=F2C811&center=true&vCenter=true&width=600&lines=Turning+Raw+Student+Data+into+Insights...;Built+with+Power+BI+%2B+DAX+%2B+Power+Query;Welcome+to+the+Student+Performance+Dashboard!)](https://git.io/typing-svg)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=0B3D91&center=true&vCenter=true&width=600&lines=Turning+Raw+Student+Data+into+Insights...;Built+with+Power+BI+%2B+DAX+%2B+Power+Query;Welcome+to+the+Student+Performance+Dashboard!)](https://git.io/typing-svg)
 
 </div>
 
@@ -60,7 +61,8 @@ The report is built on four relational CSV datasets:
 
 A **star-schema** style model was created in Power BI, with `Students` as the central dimension table connected to three fact tables (`Scores`, `Attendance`, `Behavior`) via one-to-many relationships on `StudentID`.
 
-![Model View](Screenshots/Model View.png)
+<img width="860" height="682" alt="Model View" src="https://github.com/user-attachments/assets/13e6d8cc-91b7-4169-b89e-7aeb6eadd7d2" />
+
 
 **Relationships:**
 - `Students[StudentID]` → `Scores[StudentID]` (1 → *)
@@ -71,7 +73,8 @@ A **star-schema** style model was created in Power BI, with `Students` as the ce
 
 ## 🖥️ Dashboard Preview
 
-![Dashboard Preview](Screenshots/Dashboard Preview.png)
+<img width="1323" height="746" alt="Dashboard Preview" src="https://github.com/user-attachments/assets/c2dc3bd7-43e4-4886-8a39-181dd283be6f" />
+
 
 The main **Academic Dashboard** page includes KPI cards, subject/class-wise performance bars, attendance status donut chart, performance trend line, and a detailed student-level score table with conditional formatting.
 
@@ -187,16 +190,11 @@ Power BI/Exam/
 
 ---
 
+<div align="center">
+
 ## 👤 Author
 
 [![Author](https://img.shields.io/badge/Author-RENSEE%20GAJIPARA-blueviolet?style=for-the-badge)]()
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rensee--gajipara-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rensee-gajipara)
 
-<br>
-
-<div align="center">
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1000&color=0A66C2&center=true&vCenter=true&width=600&lines=Thanks+for+checking+out+this+project!;Feel+free+to+connect+with+me+on+LinkedIn+%F0%9F%91%8B;Star+%E2%AD%90+this+repo+if+you+found+it+useful!)](https://www.linkedin.com/in/rensee-gajipara)
-
 </div>
-
