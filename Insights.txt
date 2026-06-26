@@ -1,0 +1,125 @@
+==========================================================
+ STUDENT PERFORMANCE DASHBOARD - KEY INSIGHTS
+ Academic Performance & Attendance Analysis
+==========================================================
+
+Author      : RENSEE GAJIPARA
+Tool Used   : Microsoft Power BI
+Data Scope  : 1,000 Students | 5 Subjects | 3 Terms | 12 Classes
+Records     : 30,000 Scores | 1,00,000 Attendance Logs | 6,500 Behavior Logs
+
+----------------------------------------------------------
+1. OVERALL ACADEMIC PERFORMANCE
+----------------------------------------------------------
+- The overall average score across all students, subjects,
+  and terms is 49.87%, indicating performance is hovering
+  right around the borderline/average mark.
+- Performance is fairly evenly spread across all 5 subjects
+  (49% - 51% range), meaning no single subject is a major
+  outlier - academic struggles are systemic rather than
+  subject-specific.
+- Math has the (marginally) highest average score (~50.78%),
+  while Geography has the lowest (~49.24%).
+
+----------------------------------------------------------
+2. PERFORMANCE BY CLASS
+----------------------------------------------------------
+- Class 3 and Class 11 are the top-performing classes
+  (~50.5% - 50.8% average score).
+- Class 12 is the lowest-performing class overall (~48.93%),
+  suggesting senior-grade students may need additional
+  academic support or revised teaching strategies.
+- Weakest Class-Subject combinations (lowest average score%):
+    1. Class 7  - History    -> 46.44%
+    2. Class 12 - History    -> 47.54%
+    3. Class 6  - Geography  -> 47.85%
+    4. Class 4  - Science    -> 48.33%
+    5. Class 8  - Geography  -> 48.38%
+  These combinations should be prioritized for academic
+  intervention.
+
+----------------------------------------------------------
+3. PERFORMANCE TREND ACROSS TERMS
+----------------------------------------------------------
+- Term-wise average scores: Term 1 (49.73%), Term 2 (49.62%),
+  Term 3 (50.26%).
+- Term 3 shows a slight improvement compared to Term 1 and
+  Term 2, suggesting performance recovers/improves later in
+  the academic cycle.
+
+----------------------------------------------------------
+4. PERFORMANCE CATEGORY DISTRIBUTION (High/Medium/Low)
+----------------------------------------------------------
+- Low performers   (<40%)      : ~39.9% of all score records
+- Medium performers (40-79%)   : ~39.6% of all score records
+- High performers   (>=80%)    : ~20.5% of all score records
+- Nearly 4 out of 10 score records fall in the "Low"
+  performance band - this is the single biggest concern
+  area for the institution and a strong candidate for
+  remedial classes or targeted tutoring programs.
+
+----------------------------------------------------------
+5. ATTENDANCE ANALYSIS
+----------------------------------------------------------
+- Overall attendance rate is strong at 90.05% (90,048
+  Present vs 9,952 Absent records out of 1,00,000 logs).
+- Absences are fairly evenly distributed in terms of reason
+  (no single dominant cause), suggesting absenteeism is
+  driven by varied, individual circumstances rather than one
+  systemic issue.
+- Surprisingly, attendance % and average score % show almost
+  NO meaningful correlation (correlation coefficient ~ -0.05)
+  at the student level. This means simply attending classes
+  is not, by itself, translating into better scores -
+  pointing toward a need to focus on in-class engagement and
+  teaching quality rather than attendance alone.
+
+----------------------------------------------------------
+6. BEHAVIORAL INSIGHTS
+----------------------------------------------------------
+- Behavior records are nearly evenly split across 5 types:
+    Disruptive               -> 1,333 records (~20.5%)
+    Late                     -> 1,302 records (~20.0%)
+    Helpful                  -> 1,299 records (~20.0%)
+    Participative            -> 1,294 records (~19.9%)
+    Absent without notice    -> 1,272 records (~19.6%)
+- "Disruptive" behavior is the single most frequently logged
+  behavior type, marginally ahead of the others - worth
+  monitoring at the classroom level.
+- Positive behaviors (Helpful + Participative) together
+  account for roughly 40% of all logged behavior, balancing
+  out the negative behavior types (Disruptive, Late, Absent
+  without notice) at ~60%.
+
+----------------------------------------------------------
+7. STUDENT DEMOGRAPHICS
+----------------------------------------------------------
+- Gender split: 525 Male (52.5%) vs 475 Female (47.5%)
+  students - a reasonably balanced cohort.
+
+----------------------------------------------------------
+8. RECOMMENDATIONS
+----------------------------------------------------------
+1. Launch targeted remedial sessions for Class 7 (History),
+   Class 12 (History), and Class 6/8 (Geography) - the
+   weakest class-subject combinations.
+2. Investigate root causes of "Disruptive" and "Late"
+   behavior patterns, as these are the most frequently
+   logged negative behaviors.
+3. Since attendance alone does not strongly predict scores,
+   shift focus toward improving engagement quality, teaching
+   methods, and assessment design rather than attendance
+   enforcement alone.
+4. Build on Term 3's improved performance by identifying
+   what changed (teaching methods, revision schedules, etc.)
+   and replicate it in Terms 1 and 2.
+5. Since ~40% of records fall in the "Low" performance band,
+   consider introducing a structured tutoring/mentorship
+   program for at-risk students flagged via the
+   Performance Category measure.
+
+==========================================================
+ End of Insights Report
+ Generated for: Student Performance Dashboard (Power BI)
+ Author: RENSEE GAJIPARA
+==========================================================
